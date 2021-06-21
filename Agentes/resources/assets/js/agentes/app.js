@@ -12,6 +12,7 @@ window.Vue = require('vue');
 
 import Vue from 'vue';
 import Tela from './components/Tela.vue';
+import Chat from './components/Chat.vue';
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -21,6 +22,7 @@ import Tela from './components/Tela.vue';
 
 Vue.component('example-component',require ('./components/Example.vue').default);
 Vue.component('tela-component', Tela);
+Vue.component('chat-component', Chat);
 
 const app = new Vue({
     el: '#app'

@@ -9,6 +9,7 @@
 <body>
     <h2>uhdasuh</h2>
     <tela-component></tela-component>
+    <chat-component></chat-component>
 
 
     <script src="{{ mix('js/agentes/app.js') }}">
