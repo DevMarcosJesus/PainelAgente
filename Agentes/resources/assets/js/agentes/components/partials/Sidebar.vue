@@ -6,9 +6,9 @@
         <ul class="list-unstyled components">
             <p>Evence Telecom</p>
             <li>
-                <router-link to="/" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a to="/chat" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                   <i class="fas fa-tachometer-alt"> </i> Dashboard
-                </router-link>
+                </a>
 
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
@@ -23,9 +23,9 @@
                 </ul>
             </li>
               <li>
-                <router-link to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                   <i class="fas fa-sitemap"> </i> Pabx
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -39,14 +39,14 @@
                 </ul>
             </li>
             <li>
-                <router-link to="/chat"><i class="fas fa-user">
+                <a to="/chat"><i class="fas fa-user">
                   </i>  Callcenter
-                </router-link>
+                </a>
             </li>
               <li>
-                <router-link to="/crm" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a to="/crm" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                   <i class="fas fa-archive"></i>  CRM
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -60,9 +60,9 @@
                 </ul>
             </li>
              <li>
-                <router-link to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
+                <a to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
                   <i class="fas fa-list"></i> Discador
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -76,9 +76,9 @@
                 </ul>
             </li>
              <li>
-                <router-link to="/chat" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a to="/chat" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                   <i class="fas fa-comments"></i> Chat
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -92,9 +92,9 @@
                 </ul>
             </li>
              <li>
-                <router-link to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
+                <a to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
                   <i class="fab fa-whatsapp"></i> Whatsapp
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -109,9 +109,9 @@
                 </ul>
             </li>
              <li>
-                <router-link to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
+                <a to="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
                   <i class="fas fa-chart-line"></i> Relatórios
-                </router-link>
+                </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
                         <a href="#">Page 1</a>
@@ -125,9 +125,9 @@
                 </ul>
             </li>
              <li>
-                <router-link to="#"> 
+                <a to="#"> 
                   <i class="fas fa-cog"></i> Configurações
-                </router-link>
+                </a>
             </li>
         </ul>
     </nav>

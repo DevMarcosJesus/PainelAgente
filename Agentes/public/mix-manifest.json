@@ -1,5 +1,4 @@
 {
     "/js/agentes/app.js": "/js/agentes/app.js",
-    "/css/app.css": "/css/app.css",
-    "/js/vuerouter/vue-router.js": "/js/vuerouter/vue-router.js"
+    "/css/app.css": "/css/app.css"
 }

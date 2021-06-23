@@ -2166,6 +2166,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -34371,21 +34375,26 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "wrapper" }, [
-      _c("nav", { attrs: { id: "sidebar" } }, [
-        _c("ul", { staticClass: "list-unstyled components" }, [
-          _c("p", [_vm._v("Evence Telecom")]),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "wrapper" }, [
+        _c("nav", { attrs: { id: "sidebar" } }, [
+          _c("ul", { staticClass: "list-unstyled components" }, [
+            _c("p", [_vm._v("Evence Telecom")]),
+            _vm._v(" "),
+            _c("li", [
               _c(
-                "router-link",
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
-                    to: "/",
+                    to: "/chat",
                     "data-toggle": "collapse",
                     "aria-expanded": "false"
                   }
@@ -34396,16 +34405,31 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(0)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
               _c(
-                "router-link",
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "homeSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Home 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Home 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Home 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34420,27 +34444,38 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(1)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
-              _c("router-link", { attrs: { to: "/chat" } }, [
+              _c(
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { to: "/chat" } }, [
                 _c("i", { staticClass: "fas fa-user" }),
                 _vm._v("  Callcenter\n                ")
               ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
+            ]),
+            _vm._v(" "),
+            _c("li", [
               _c(
-                "router-link",
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34455,16 +34490,31 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(2)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
               _c(
-                "router-link",
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34479,16 +34529,31 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(3)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
               _c(
-                "router-link",
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34503,16 +34568,31 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(4)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
               _c(
-                "router-link",
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34527,16 +34607,33 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(5)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
               _c(
-                "router-link",
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Home 3")]),
+                    _vm._v(" "),
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
                 {
                   staticClass: "dropdown-toggle",
                   attrs: {
@@ -34551,142 +34648,38 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(6)
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            [
-              _c("router-link", { attrs: { to: "#" } }, [
+              _c(
+                "ul",
+                {
+                  staticClass: "collapse list-unstyled",
+                  attrs: { id: "pageSubmenu" }
+                },
+                [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { to: "#" } }, [
                 _c("i", { staticClass: "fas fa-cog" }),
                 _vm._v(" Configurações\n                ")
               ])
-            ],
-            1
-          )
+            ])
+          ])
         ])
       ])
     ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "homeSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Home 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Home 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Home 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v("Home 3")]),
-          _vm._v(" "),
-          _c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])
-        ]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "ul",
-      { staticClass: "collapse list-unstyled", attrs: { id: "pageSubmenu" } },
-      [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 1")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 2")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Page 3")])])
-      ]
-    )
   }
 ]
 render._withStripped = true
@@ -34712,6 +34705,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { attrs: { id: "app" } },
     [
       _c("Navbar"),
       _vm._v(" "),
@@ -34719,7 +34713,7 @@ var render = function() {
       _vm._v(" "),
       _c("Chat"),
       _vm._v(" "),
-      _c("router-view")
+      _c("div", [_c("router-view")], 1)
     ],
     1
   )
@@ -47410,12 +47404,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_sidebar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../css/sidebar.css */ "./resources/assets/css/sidebar.css");
 /* harmony import */ var _css_sidebar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_sidebar_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_partials_Template_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/partials/Template.vue */ "./resources/assets/js/agentes/components/partials/Template.vue");
-/* harmony import */ var _views_Chat_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/Chat.vue */ "./resources/assets/js/views/Chat.vue");
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+/* harmony import */ var _views_Dashboard_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/Dashboard.vue */ "./resources/assets/js/views/Dashboard.vue");
+/* harmony import */ var _views_Pabx_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/Pabx.vue */ "./resources/assets/js/views/Pabx.vue");
+/* harmony import */ var _views_Callcenter_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../views/Callcenter.vue */ "./resources/assets/js/views/Callcenter.vue");
+/* harmony import */ var _views_CRM_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../views/CRM.vue */ "./resources/assets/js/views/CRM.vue");
+/* harmony import */ var _views_Discador_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../views/Discador.vue */ "./resources/assets/js/views/Discador.vue");
+/* harmony import */ var _views_Chat_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../views/Chat.vue */ "./resources/assets/js/views/Chat.vue");
+/* harmony import */ var _views_Whatsapp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../views/Whatsapp.vue */ "./resources/assets/js/views/Whatsapp.vue");
+/* harmony import */ var _views_Relatorios_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../views/Relatorios.vue */ "./resources/assets/js/views/Relatorios.vue");
+/* harmony import */ var _views_Configuracoes_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../views/Configuracoes.vue */ "./resources/assets/js/views/Configuracoes.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/assets/js/agentes/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -47424,14 +47421,24 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
+
+
+
+
+
+
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('template-vue', _components_partials_Template_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('chat-component', _views_Chat_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('dashboard-component', _views_Dashboard_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('pabx-component', _views_Pabx_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('callcenter-component', _views_Callcenter_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('crm-component', _views_CRM_vue__WEBPACK_IMPORTED_MODULE_7__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('discador-component', _views_Discador_vue__WEBPACK_IMPORTED_MODULE_8__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('chat-component', _views_Chat_vue__WEBPACK_IMPORTED_MODULE_9__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('whatsapp-component', _views_Whatsapp_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('relatorio-component', _views_Relatorios_vue__WEBPACK_IMPORTED_MODULE_11__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('config-component', _views_Configuracoes_vue__WEBPACK_IMPORTED_MODULE_12__["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   layoutWhatsapp: _css_whatsapp_css__WEBPACK_IMPORTED_MODULE_1___default.a,
@@ -47720,6 +47727,70 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/js/views/CRM.vue":
+/*!*******************************************!*\
+  !*** ./resources/assets/js/views/CRM.vue ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/CRM.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Callcenter.vue":
+/*!**************************************************!*\
+  !*** ./resources/assets/js/views/Callcenter.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Callcenter.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/assets/js/views/Chat.vue":
 /*!********************************************!*\
   !*** ./resources/assets/js/views/Chat.vue ***!
@@ -47786,6 +47857,198 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chat_vue_vue_type_template_id_429c24aa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Configuracoes.vue":
+/*!*****************************************************!*\
+  !*** ./resources/assets/js/views/Configuracoes.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Configuracoes.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Dashboard.vue":
+/*!*************************************************!*\
+  !*** ./resources/assets/js/views/Dashboard.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Dashboard.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Discador.vue":
+/*!************************************************!*\
+  !*** ./resources/assets/js/views/Discador.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Discador.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Pabx.vue":
+/*!********************************************!*\
+  !*** ./resources/assets/js/views/Pabx.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Pabx.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Relatorios.vue":
+/*!**************************************************!*\
+  !*** ./resources/assets/js/views/Relatorios.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Relatorios.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/views/Whatsapp.vue":
+/*!************************************************!*\
+  !*** ./resources/assets/js/views/Whatsapp.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/assets/js/views/Whatsapp.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 

@@ -1,9 +1,13 @@
 <template>
-    <div>
+    <div id="app">
         <Navbar/>
         <Sidebar/>
         <Chat/>
-        <router-view></router-view>
+
+    <div>
+        <router-view/>
+   </div>
+
     </div>
 </template>
 

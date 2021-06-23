@@ -14,8 +14,6 @@ let mix = require('laravel-mix');
 mix.js('resources/assets/js/agentes/app.js', 'public/js/agentes')
    .sass('resources/assets/sass/app.scss', 'public/css');
 
-   mix.js('resources/assets/js/agentes/vue-router.js', 'public/js/vuerouter')
-
    if(mix.inProduction()) {
       mix.version();
    }
