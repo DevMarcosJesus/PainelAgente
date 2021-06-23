@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="./public/images/painel.png"></p>
 
 <p align="center">
     Estagiário Marcos Jesus
