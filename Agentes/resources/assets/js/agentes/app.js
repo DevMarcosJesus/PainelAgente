@@ -9,10 +9,13 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-
 import Vue from 'vue';
-import Tela from './components/Tela.vue';
-import Chat from './components/Chat.vue';
+
+import layoutWhatsapp from '../../css/whatsapp.css';
+import sidebar from '../../css/sidebar.css';
+
+import Template from './components/partials/Template.vue';
+import Chat from '../views/Chat.vue';
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -20,10 +23,12 @@ import Chat from './components/Chat.vue';
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component',require ('./components/Example.vue').default);
-Vue.component('tela-component', Tela);
+Vue.component('template-vue', Template);
 Vue.component('chat-component', Chat);
 
+
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    layoutWhatsapp,
+    sidebar,
 });
