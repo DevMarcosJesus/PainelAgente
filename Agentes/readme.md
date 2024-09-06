@@ -1,5 +1,6 @@
 <p align="center"><img src="./public/images/painel.png"></p>
 
+<p> With implementation Vue.JS in Blade Templates </p>
 ## Running this project
 
 composer install
@@ -11,11 +12,6 @@ npm run dev
 php artisan serve 
 
 npm run watch
-
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
