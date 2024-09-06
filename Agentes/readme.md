@@ -1,9 +1,5 @@
 <p align="center"><img src="./public/images/painel.png"></p>
 
-<p align="center">
-    Estagiário Marcos Jesus
-</p>
-
 ## Running this project
 
 composer install
